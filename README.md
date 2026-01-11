@@ -9,10 +9,10 @@ Node.js (v14.15.1) https://nodejs.org/en/download/
 
 # Basic Setup
 
-1. Clone this repo using git clone.
-2. cd ik-module4-webapp/kickposter
-3. npm install
-4. npm run start
+1. Clone this repo using `git clone`.
+2. `cd kickposter`
+3. `npm install`
+4. `npm run start`
 
 # Steps to set up the Drive Examiner example
 

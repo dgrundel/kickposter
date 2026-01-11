@@ -1,5 +1,5 @@
 import "@github/time-elements";
-import { TimeAgoElement } from "@github/time-elements";
+import { RelativeTimeElement } from "@github/relative-time-element";
 import React, { DOMAttributes } from "react";
 import "./TimeSince.css";
 
@@ -8,7 +8,7 @@ type CustomElement<T> = Partial<T & DOMAttributes<T> & { children: any }>;
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      ["time-ago"]: CustomElement<TimeAgoElement>;
+      ["time-ago"]: CustomElement<RelativeTimeElement>;
     }
   }
 }
